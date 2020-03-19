@@ -16,4 +16,10 @@ public class HelloController {
     public String info(){
         return "hello1";
     }
+
+    //开发人员添加
+    @RequestMapping("info1")
+    public String info1(){
+        return "hello2";
+    }
 }
