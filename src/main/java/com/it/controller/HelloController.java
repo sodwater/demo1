@@ -14,7 +14,7 @@ public class HelloController {
 
     @RequestMapping("info")
     public String info(){
-        return "hello1";
+        return "hello1-1 项目经理";
     }
 
     //开发人员添加
